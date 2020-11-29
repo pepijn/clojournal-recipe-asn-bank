@@ -1,4 +1,4 @@
-(ns nl.epij.clojournal-recipe.asn-bank
+(ns nl.epij.clojournal-recipe.asn-bank-test
   (:require [clojure.test :refer [deftest is]]
             [nl.epij.clojournal-recipe.asn-bank :as asn-bank]
             [com.clojournal.alpha :as clojournal]
