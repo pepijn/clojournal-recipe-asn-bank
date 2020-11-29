@@ -2,7 +2,8 @@
            com.clojournal/clojournal {:git/url "https://github.com/clojournal/clojournal"
                                       :sha     "f73aa9119674054abff18801cc43736ca7990a34"}}
  :paths   ["src"]
- :aliases {:test      {:extra-deps  {lambdaisland/kaocha {:mvn/version "1.0.732"}}
+ :aliases {:test      {:extra-deps  {org.clojure/clojure {:mvn/version "1.10.1"}
+                                     lambdaisland/kaocha {:mvn/version "1.0.732"}}
                        :extra-paths ["test"]}
            :clj-kondo {:extra-deps {clj-kondo/clj-kondo {:mvn/version "RELEASE"}}
                        :main-opts  ["-m" "clj-kondo.main"]}}}
