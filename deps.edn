@@ -1,0 +1,4 @@
+{:deps    {org.clojure/data.csv      {:mvn/version "1.0.0"}
+           com.clojournal/clojournal {:git/url "https://github.com/clojournal/clojournal"
+                                      :sha     "f73aa9119674054abff18801cc43736ca7990a34"}}
+ :paths   ["src"]}
